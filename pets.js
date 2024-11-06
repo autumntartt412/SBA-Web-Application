@@ -1,7 +1,7 @@
 // footer
-// export function addFooter() {
 
-   function addFooter() {
+
+   export function addFooter() {
     let newH4 = document.createElement('h4');
     newH4.textContent = "Rehome Your Forever Friend.";
     newH4.className = 'h4footer';

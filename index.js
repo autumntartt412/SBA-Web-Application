@@ -4,8 +4,8 @@ import { addFooter } from './pets.js';
 import  * as footer  from './pets.js';
 
 
-// const footerH1 = addFooter();
-// console.log(`footerH1`);
+const footerH1 = addFooter();
+console.log(`footerH1`);
 
 // The breed selection input element.
 const breedSelect = document.getElementById("breedSelect");
