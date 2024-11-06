@@ -1,0 +1,153 @@
+.pets-main {
+    display: flex;
+    /* border: solid; */
+    display: flex;
+    justify-content: space-around;
+  }
+
+  body {
+    background: 275px url("https://images.pexels.com/photos/17427832/pexels-photo-17427832/free-photo-of-dogs-sitting-on-the-ground.png?auto=compress&cs=tinysrgb&w=600&lazy=load");
+    border: 5px solid rgb(99, 87, 135);
+    height: 1000px;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 5px;
+    /* background-color: lightgray;
+  height: 100%; */
+}
+
+div #line1 {
+    padding-left: 1250px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    margin: 0%;
+    padding-right: 250px;
+    text-shadow: 2px 2px 4px rgb(221, 215, 215);
+}
+
+h4 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+html {
+    height: 100%;
+}
+
+
+.progress-bar-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 15px;
+  background-color: green;
+  border-bottom: 1px solid black;
+}
+
+.favourite-button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  z-index: 99999;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: all ease 0.2s;
+}
+.favourite-button:hover {
+  color: lightgreen;
+  width: 36px;
+  height: 36px;
+  top: 7px;
+  right: 12px;
+}
+
+.carousel-inner {
+  padding: 1em;
+}
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media (min-width: 768px) {
+  .carousel-item {
+    margin-right: 0;
+    flex: 0 0 33.333333%;
+    display: block;
+  }
+  .carousel-inner {
+    display: flex;
+  }
+}
+.card .img-wrapper {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card img {
+  max-height: 100%;
+}
+@media (max-width: 767px) {
+  .card .img-wrapper {
+    height: 17em;
+  }
+}
+
+
+img {
+    width: 150px;
+    height: 100px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
+
+#form-container {
+   
+    display: flex;
+    justify-content: center;
+   align-content: center;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    width: 750px;
+    height: 200px;
+   padding-left: 1250px;  
+  
+   
+}
+
+#submit {
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 20px;
+   width: 80px;
+    height: 40px;
+}  
+
+
